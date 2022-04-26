@@ -1,0 +1,210 @@
+.fondoimagenprincipal{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    color: rgb(218, 218, 218);
+    font-size: 50px;
+    text-align: center;
+    font-family: "bungee";
+}
+.menuPrincipal{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: "bungee";
+    word-spacing: 4rem;
+}
+.menu1{
+    font-size: 25px;
+    display:inline-block;
+    width: 10%;
+}
+.menu2{
+    font-size: 25px;
+    display:inline-block;
+    width: 10%;
+}
+.menu3{
+    font-size: 25px;
+    display:inline-block;
+    width: 10%;
+}
+.menu4{
+    font-size: 25px;
+    display:inline-block;
+    width: 10%;
+}
+.menu5{
+    font-size: 25px;
+    display:inline-block;
+    width: 10%;
+}
+h2{
+    color: rgb(148, 17, 61);
+    font-family: "bungee";
+    text-align: center; 
+}
+h3{
+    color: rgb(148, 17, 61);
+    font-family: "bungee";
+}
+.imagenfondo1{
+    background-image:url(../Cute-Car-Minimal-Background-HD-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350vh;
+}
+.imagenfondo2{
+    background-image:url(../Cute-Car-Minimal-Background-HD-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450vh;
+}
+.imagenfondo3{
+    background-image:url(../Cute-Car-Minimal-Background-HD-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400vh;
+}
+.imagenfondo4{
+    background-image:url(../Cute-Car-Minimal-Background-HD-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 640vh;
+}
+.imagenfondo5{
+    background-image:url(../Cute-Car-Minimal-Background-HD-Wallpaper1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 230vh;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.imagenprincipal{
+    display: flex;
+    justify-content:center;
+}
+.parrafoprincipal{
+    font-family: "lobster";
+    font-size: 20px;
+}
+.horarios{
+    font-family: "bungee";
+    color: rgb(148, 17, 61);
+    text-align: left;
+}
+.pruebamarco{
+    border: solid 2px white;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.ofertas{
+    font-family: "alfa slab one";
+    color: rgb(228, 13, 13);
+}
+table{
+    border: solid 3px white;
+}
+.imagentitulo0km{
+    width: 100%;
+}
+.listadodeauto1{
+    text-align: center;
+    font-family: "bungee";
+}
+.polo{
+    display: inline-block;
+    width: 40%;
+}
+.listacaracteristicas{
+    list-style: none;
+}
+.argo{
+   display: inline-block;
+   width: 40%;
+}
+.onix{
+    display: inline-block;
+    width: 40%;
+}
+.letraformulario{
+    font-family: "lobster";
+}
+.fondocontacto1{
+    background-color: rgb(0, 0, 0);
+}
+.bordesfotoold{
+    border: solid 2px black;
+    border-bottom: solid 2px white;
+    border-left: none;
+    border-right: none;
+}
+.bordeimagen0km{
+    border-radius: 50px;
+    border:solid 4px black
+}
+.container {  
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "nav nav nav"
+      "img\+tit img\+tit img\+tit"
+      "img\+tit img\+tit img\+tit"
+      "main main main"
+      "main main main"
+      "ofertas ofertas ofertas"
+      "ofertas ofertas ofertas"
+      "ofertas ofertas ofertas"
+      "footer footer footer";
+  }
+  
+  .img\+tit { 
+      grid-area: img\+tit; 
+    }
+  
+  .main { 
+      grid-area: main; 
+}
+  
+  .ofertas { 
+      grid-area: ofertas; 
+    }
+  
+  .footer { 
+      grid-area: footer; 
+    }
+  
+  .nav { grid-area: nav; 
+    display: grid;
+}
+
+@media all and (max-width:760px){
+    .menuPrincipal{
+        float: left;
+        margin-right: 10%;
+        width: 20%;
+        word-spacing: 5rem;
+    }
+    .menuPrincipal{
+        background: red;
+    }
+    .fondoimagenprincipal{
+        background: red;
+    }
+}
+li:hover{
+    transform: scale(1.6);
+}
+.padding{
+    padding-left: 6%;
+    padding-right: 6%;
+}

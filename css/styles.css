@@ -52,14 +52,14 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 350vh; }
+  height: 325vh; }
 
 .imagenfondo2 {
   background-image: url(../Cute-Car-Minimal-Background-HD-Wallpaper.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 450vh; }
+  height: 425vh; }
 
 .imagenfondo3 {
   background-image: url(../Cute-Car-Minimal-Background-HD-Wallpaper.jpg);
@@ -73,7 +73,7 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 640vh; }
+  height: 525vh; }
 
 .imagenfondo5 {
   background-image: url(../Cute-Car-Minimal-Background-HD-Wallpaper1.jpg);
@@ -155,7 +155,15 @@ table {
   grid-template-rows: 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "nav nav nav" "img\+tit img\+tit img\+tit" "img\+tit img\+tit img\+tit" "main main main" "main main main" "ofertas ofertas ofertas" "ofertas ofertas ofertas" "ofertas ofertas ofertas" "footer footer footer"; }
+  grid-template-areas: "nav nav nav"
+ "img\+tit img\+tit img\+tit"
+ "img\+tit img\+tit img\+tit"
+ "main main main"
+ "main main main"
+ "ofertas ofertas ofertas"
+ "ofertas ofertas ofertas"
+ "ofertas ofertas ofertas"
+ "footer footer footer"; }
 
 .img\+tit {
   grid-area: img\+tit; }
